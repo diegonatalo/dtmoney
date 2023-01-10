@@ -9,9 +9,9 @@
 </p>
 
 <h1 align="center">
-    React Boilerplate
+    dtMoney
 </h1>
-<p align="center">Meu boilerplate pessoal para a criação de aplicações React + Typescript com Vite</p>
+<p align="center">Aplicação simples de controle financeiro</p>
 
 <p align="center">
  <a href="#-sobre-o-projeto">Sobre o Projeto</a> •
@@ -47,10 +47,10 @@ Descrição do projeto.
 
 ```bash
 # Primeiro clone o repositório utilizando git:
-$ git clone https://github.com/diegonatalo/exemplo.git
+$ git clone https://github.com/diegonatalo/dtmoney.git
 
 # Depois acesse a pasta do projeto:
-$ cd exemplo
+$ cd dtmoney
 
 # Em seguida instale as dependências:
 $ npm i
