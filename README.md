@@ -30,6 +30,11 @@ Descrição do projeto.
 
 - [React](https://reactjs.org/)
 - [Typescript](https://www.typescriptlang.org/)
+- [React Modal](https://reactcommunity.org/react-modal/)
+- [Axios](https://axios-http.com/)
+- [Mirage JS](https://miragejs.com/)
+- [Styled Components](https://styled-components.com/)
+- [Polished](https://polished.js.org/)
 - [Vite](https://vitejs.dev/)
 
 ---
