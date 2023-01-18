@@ -1,10 +1,10 @@
-import { useTransactions } from "../../hooks/useTransactions";
-import { Container } from "./styles";
+import { useTransactions } from '@/hooks/useTransactions'
+import { Container } from './styles'
 
 export function TransactionsTable() {
-  const { transactions } = useTransactions();
+  const { transactionsState } = useTransactions()
 
-  return(
+  return (
     <Container>
       <table>
         <thead>
@@ -16,13 +16,13 @@ export function TransactionsTable() {
           </tr>
         </thead>
         <tbody>
-          { transactions.map(transaction => (
+          {transactionsState.map((transaction) => (
             <tr key={transaction.id}>
               <td>{transaction.title}</td>
               <td className={transaction.type}>
                 {new Intl.NumberFormat('pt-BR', {
                   style: 'currency',
-                  currency: 'BRL',
+                  currency: 'BRL'
                 }).format(transaction.amount)}
               </td>
               <td>{transaction.category}</td>
@@ -36,5 +36,5 @@ export function TransactionsTable() {
         </tbody>
       </table>
     </Container>
-  );
+  )
 }
