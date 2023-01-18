@@ -1,5 +1,4 @@
 import { useTransactions } from '@/hooks/useTransactions'
-import { format } from 'date-fns'
 import { FormEvent, useState } from 'react'
 import Modal from 'react-modal'
 import { v4 as uuidv4 } from 'uuid'
@@ -27,7 +26,6 @@ export function NewTransactionModal({
 
   function handleCreateNewTransaction(event: FormEvent) {
     event.preventDefault()
-    console.log(format(new Date(), 'dd/MM/yyyy'))
 
     createTransaction({
       id: uuidv4(),
