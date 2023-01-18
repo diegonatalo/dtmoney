@@ -22,11 +22,11 @@
 
 ## 📌 Sobre o projeto
 
-Descrição do projeto.
+Descrição do projeto (em construção).
 
 ---
 
-## 💻 Tecnologias
+## 🧩 Tecnologias
 
 - [React](https://reactjs.org/)
 - [Typescript](https://www.typescriptlang.org/)
