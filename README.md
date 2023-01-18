@@ -9,9 +9,9 @@
 </p>
 
 <h1 align="center">
-    React Boilerplate
+    dtMoney
 </h1>
-<p align="center">Meu boilerplate pessoal para a criação de aplicações React + Typescript com Vite</p>
+<p align="center">Aplicação simples de controle financeiro</p>
 
 <p align="center">
  <a href="#-sobre-o-projeto">Sobre o Projeto</a> •
@@ -30,6 +30,11 @@ Descrição do projeto.
 
 - [React](https://reactjs.org/)
 - [Typescript](https://www.typescriptlang.org/)
+- [React Modal](https://reactcommunity.org/react-modal/)
+- [Axios](https://axios-http.com/)
+- [Mirage JS](https://miragejs.com/)
+- [Styled Components](https://styled-components.com/)
+- [Polished](https://polished.js.org/)
 - [Vite](https://vitejs.dev/)
 
 ---
@@ -47,10 +52,10 @@ Descrição do projeto.
 
 ```bash
 # Primeiro clone o repositório utilizando git:
-$ git clone https://github.com/diegonatalo/exemplo.git
+$ git clone https://github.com/diegonatalo/dtmoney.git
 
 # Depois acesse a pasta do projeto:
-$ cd exemplo
+$ cd dtmoney
 
 # Em seguida instale as dependências:
 $ npm i
